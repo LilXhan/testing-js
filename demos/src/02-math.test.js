@@ -1,4 +1,6 @@
-const { sum, multiply, divide, average } = require('./02-math');
+const {
+  sum, multiply, divide, average,
+} = require('./02-math');
 
 test('adds 1 + 3 equals 3', () => {
   const rta = sum(1, 3);
